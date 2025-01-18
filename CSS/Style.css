@@ -432,3 +432,35 @@ header .navbar {
     color: #fff;
     margin: 0 5px;
 }
+
+/* Custom Scroll-bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00000074;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Bottom-to-top */
+
+#back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    background-color: #772939;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
