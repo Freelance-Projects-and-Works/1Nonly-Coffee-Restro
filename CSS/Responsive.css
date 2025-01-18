@@ -56,7 +56,7 @@
 
     .navbar .nav-menu {
         display: block;
-        background: #324964;
+        background: var(--third-color);
         position: fixed;
         top: 0;
         left: -300px;
